@@ -1,0 +1,160 @@
+.color {
+  width: 100%;
+}
+.darktextboxes {
+  background-color:rgb(162, 162, 162);
+  border-color:rgb(255, 255, 255);
+  color:white;
+}
+.darkgray {
+  color:darkgray;
+}
+.gray {
+  color:gray;
+}
+.darkerrortext {
+  color:red;
+}
+.errortext {
+  color:darkred;
+}
+.cpypstt {
+  color: #A020F0;
+  outline-width: 0.5rem;
+  outline: thin;
+}
+.pp::-webkit-scrollbar {
+  display: none; 
+}
+.pp {
+  -ms-overflow-style: none; scrollbar-width: none;
+}
+body.dark {
+  background-color:#1c1c1c;
+  color:white;
+}
+select.dark {
+  background-color:#1F2933;
+  border-color:#2C3844;
+  color:white;
+}
+#colors {
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+}
+@font-face {
+   font-family: MinecraftRegular;
+   src: url(../MinecraftRegular.otf);
+}
+@font-face {
+   font-family: MinecraftBold;
+   src: url(../MinecraftBold.otf);
+}
+@font-face {
+   font-family: MinecraftItalic;
+   src: url(../MinecraftItalic.otf);
+}
+@font-face {
+   font-family: MinecraftBoldItalic;
+   src: url(../MinecraftBoldItalic.otf);
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300;
+  src: url(../fonts/300.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 500;
+  src: url(../fonts/500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url(../fonts/600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(../fonts/700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: regular;
+  font-display: swap;
+  font-weight: 400;
+  src: url(../fonts/regular.ttf) format('truetype');
+}
+#coloredNick {
+  font-size: 4rem;
+  word-wrap: break-word;
+}
+.minecraft {
+  font-family: MinecraftRegular;
+}
+.minecraftbold {
+  font-family: MinecraftBold;
+}
+.minecraftitalic {
+  font-family: MinecraftItalic;
+}
+.minecraftibold {
+  font-family: MinecraftBoldItalic;
+}
+.minecraftunderline {
+  text-decoration: underline;
+}
+.minecraftustrike {
+  text-decoration: underline line-through;
+}
+.minecraftstrike {
+  text-decoration: line-through;
+}
+footer{
+  display: table;
+  text-align: center;
+  margin-left:0;
+  margin-right:auto;
+  margin-top:120px;
+}
+#title {
+    position:relative;
+    background: linear-gradient(to right, #ff0000, #ff7300 , #eeff00, #1eff00, #0059ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: color_animation 8s ease-in-out infinite;
+    background-size: 400% 100%;
+}
+#inputs{
+  position: relative;
+}
+@keyframes color_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+body{
+  margin: auto;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+#strike {
+  text-decoration: line-through;
+}
