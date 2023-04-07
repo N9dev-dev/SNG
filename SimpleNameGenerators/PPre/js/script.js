@@ -106,6 +106,10 @@ const nickName = document.getElementById("nickname"),
         27: {
             colors: ["F5489B", "DB81DB"]
         },
+        //SidFury
+        28: {
+            colors: ["E40C0F", "0149E3"]
+        },
         //Default
         23: {
             colors: ["999999", "999999"]
