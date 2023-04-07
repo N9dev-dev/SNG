@@ -83,6 +83,16 @@ function darkMode() {
     })))
 }
 
+function CopyToClipboard(id)
+{
+var r = document.createRange();
+r.selectNode(document.getElementById(id));
+window.getSelection().removeAllRanges();
+window.getSelection().addRange(r);
+document.execCommand('copy');
+window.getSelection().removeAllRanges();
+}
+
 function getRandomHexColor() {
     return Math.floor(16777215 * Math.random()).toString(16).toUpperCase()
 }
