@@ -90,6 +90,18 @@ const nickName = document.getElementById("nickname"),
         22: {
             colors: ["A5A5A5", "F3EE02"]
         },
+        //IBurkie
+        24: {
+            colors: ["0AAD1E", "54F9F9"]
+        },
+        //hevnoorak
+        25: {
+            colors: ["F9F953", "F9F953"]
+        },
+        //hevnoorak
+        26: {
+            colors: ["DBE303", "45E410"]
+        },
         //Default
         23: {
             colors: ["999999", "999999"]
