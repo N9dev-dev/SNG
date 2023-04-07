@@ -83,7 +83,7 @@ const nickName = document.getElementById("nickname"),
             colors: ["AFECBE", "055505"]
         },
         //Mac Da King
-        20: {
+        21: {
             colors: ["DE0804", "035DDD", "6D4FB4"]
         },
     },
