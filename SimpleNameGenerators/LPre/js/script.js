@@ -12,7 +12,7 @@ const nickName = document.getElementById("nickname"),
         },
         // Quality
         3: {
-            colors: ["00FFE0", "27D5E5", "4EAAEA", "7680F0", "9D55F5", "C42BFA", "EB00FF"]
+            colors: ["ECDDD0", "E2DEDA", "D9DEE4", "CFDFEE", "DADEE3", "E5DED8", "F0DDCD"]
         },
         // Niedelie
         4: {
