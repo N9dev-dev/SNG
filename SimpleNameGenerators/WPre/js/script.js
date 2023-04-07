@@ -9,7 +9,21 @@ const nickName = document.getElementById("nickname"),
         // Blondie
         2: {
             colors: ["8e42fb", "9360fb", "987dfc", "9e9bfc", "a3b8fc", "a8d6fd", "adf3fd"]
+        },
+        // Fish
+        3: {
+            colors: ["0A8DE3", "11899D", "148256", "1E8114"]
+        },
+        // MRxCHOWDER
+        4: {
+            colors: ["08C3CF", "08C3CF"]
+        },
+        // MrChimp
+        5: {
+            colors: ["0744E1", "A9EDF7"]
         }
+        
+        
     },
     formats = {
         0: {
