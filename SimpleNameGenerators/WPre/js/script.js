@@ -21,8 +21,11 @@ const nickName = document.getElementById("nickname"),
         // MrChimp
         5: {
             colors: ["0744E1", "A9EDF7"]
-        }
-        
+        },
+        // Noury69x
+        6: {
+            colors: ["9D0909", "010101"]
+        },
         
     },
     formats = {
