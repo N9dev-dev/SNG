@@ -86,6 +86,14 @@ const nickName = document.getElementById("nickname"),
         21: {
             colors: ["DE0804", "035DDD", "6D4FB4"]
         },
+        //SmooshYT
+        22: {
+            colors: ["A5A5A5", "F3EE02"]
+        },
+        //Default
+        23: {
+            colors: ["999999", "999999"]
+        },
     },
     formats = {
         0: {

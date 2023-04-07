@@ -42,6 +42,10 @@ const nickName = document.getElementById("nickname"),
         10: {
             colors: ["DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B"]
         },
+        // Themis
+        11: {
+            colors: ["65adcd", "75b6d2", "86bfd7", "96c8dc", "a7d1e1", "b8dae6"]
+        }
     },
     formats = {
         0: {
