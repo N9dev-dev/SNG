@@ -26,6 +26,35 @@ const nickName = document.getElementById("nickname"),
         6: {
             colors: ["9D0909", "010101"]
         },
+        // Lora
+        7: {
+            colors: ["0071B2", "00C795"]
+        },
+        // Beat
+        8: {
+            colors: ["2A0084", "810095"]
+        },
+        // Macca
+        9: {
+            colors: ["F8A0D3", "E312BB"]
+        },
+        // Loki
+        10: {
+            colors: ["1A3C0D", "54E21E"]
+        },
+        // Qumuz
+        11: {
+            colors: ["DC510D", "B0E337"]
+        },
+        // Aazronn
+        12: {
+            colors: ["03093B", "03093B"]
+        },
+        // userp
+        13: {
+            colors: ["00AA00", "AA00AA", "FFFF55", "FFFF55", "FF5555"]
+        },
+        
         
     },
     formats = {

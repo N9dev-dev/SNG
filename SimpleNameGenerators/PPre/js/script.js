@@ -98,9 +98,13 @@ const nickName = document.getElementById("nickname"),
         25: {
             colors: ["F9F953", "F9F953"]
         },
-        //hevnoorak
+        //Duck Hidan
         26: {
             colors: ["DBE303", "45E410"]
+        },
+        //Fancy
+        27: {
+            colors: ["F5489B", "DB81DB"]
         },
         //Default
         23: {
