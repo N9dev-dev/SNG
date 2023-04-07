@@ -30,6 +30,10 @@ const nickName = document.getElementById("nickname"),
         7: {
             colors: ["CA069D", "CB3277", "CB6050", "CB8C29", "CBBA03"]
         },
+        // Lory
+        8: {
+            colors: ["A5BDD2", "E48D87"]
+        },
     },
     formats = {
         0: {
