@@ -54,6 +54,38 @@ const nickName = document.getElementById("nickname"),
         13: {
             colors: ["00AA00", "AA00AA", "FFFF55", "FFFF55", "FF5555"]
         },
+        // 3volv3
+        14: {
+            colors: ["06EA7D", "F98ADA"]
+        },
+        // Icecream
+        15: {
+            colors: ["68DDDC", "D8E457"]
+        },
+        // Ghost
+        16: {
+            colors: ["040302", "040302"]
+        },
+        // fulcrin
+        17: {
+            colors: ["010D19", "012A95"]
+        },
+        // Baron
+        18: {
+            colors: ["5CC8E0", "D6E0C7"]
+        },
+        // JimDaDoggo
+        19: {
+            colors: ["0514DC", "04DED5"]
+        },
+        //  jessie
+        20: {
+            colors: ["0BCCC3", "C5DA0D"]
+        },
+        //  superpiper
+        21: {
+            colors: ["CC049E", "CC049E"]
+        },
         
         
     },

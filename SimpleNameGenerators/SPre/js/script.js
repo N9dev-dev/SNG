@@ -26,13 +26,25 @@ const nickName = document.getElementById("nickname"),
         6: {
             colors: ["855ED5", "7852C8", "6041A1", "5E4493", "452F74"]
         },
-        // Sunny
+        // Lory
         7: {
+            colors: ["A5BDD2", "E48D87"]
+        },
+        // Sunny Phx
+        8: {
             colors: ["CA069D", "CB3277", "CB6050", "CB8C29", "CBBA03"]
         },
-        // Lory
-        8: {
-            colors: ["A5BDD2", "E48D87"]
+        // Sunny wyv
+        9: {
+            colors: ["CC049E", "6D4FA9"]
+        },
+        // Sunny lx
+        10: {
+            colors: ["null"]
+        },
+        // George
+        11: {
+            colors: ["2484F5", "F7F7F6"]
         },
     },
     formats = {
