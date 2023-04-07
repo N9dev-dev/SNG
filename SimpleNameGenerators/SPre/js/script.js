@@ -22,6 +22,14 @@ const nickName = document.getElementById("nickname"),
         5: {
             colors: ["991199", "7a0f99", "5c0d99", "3d0a99", "1f0899", "1f0899", "000699"]
         },
+        // Howie
+        6: {
+            colors: ["855ED5", "7852C8", "6041A1", "5E4493", "452F74"]
+        },
+        // Sunny
+        7: {
+            colors: ["CA069D", "CB3277", "CB6050", "CB8C29", "CBBA03"]
+        },
     },
     formats = {
         0: {

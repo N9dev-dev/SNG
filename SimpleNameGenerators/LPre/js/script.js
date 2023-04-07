@@ -40,6 +40,12 @@ const nickName = document.getElementById("nickname"),
             formatChar: "&",
             maxLength: 256
         },
+        4: {
+            outputPrefix: "",
+            template: "{#$1$2$3$4$5$6> }$f$c",
+            formatChar: "&",
+            maxLength: 256
+        }
 
     };
 
@@ -151,10 +157,10 @@ function updateOutputText(e) {
     let t = formats[document.getElementById("output-format").value];
     if (t.outputPrefix && (nickName.value = nickName.value.replace(/ /g, ""), nickName.value)) {
         let t = /^[0-9a-zA-Z_]+$/;
-        nickName.value.match(t) || (nickName.value = nickName.value.replace(e.data, "")), nickName.value.match(t) || (nickName.value = "birdflop.com")
+        nickName.value.match(t) || (nickName.value = nickName.value.replace(e.data, "")), nickName.value.match(t) || (nickName.value = "WeLovDev")
     }
     let o = nickName.value;
-    o || (o = "Type something!");
+    o || (o = "Nickname");
     const r = document.getElementById("bold").checked,
         a = document.getElementById("italics").checked,
         l = document.getElementById("underline").checked,

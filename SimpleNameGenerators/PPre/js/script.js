@@ -46,6 +46,38 @@ const nickName = document.getElementById("nickname"),
         11: {
             colors: ["90d35b", "a6de75", "bce890", "d1f3aa", "e7fdc4"]
         },
+        //Mabu
+        12: {
+            colors: ["998CD1", "9C88C4", "A38ABC", "A787B0", "AB89A9", "C293AC", "C28D9B", "CA8F93"]
+        },
+        //Nikki
+        13: {
+            colors: ["E48C26", "E17F4C", "DF7470", "E26697", "DF6795", "E459BE"]
+        },
+        //Zaffiro
+        14: {
+            colors: ["03E26E", "00D581", "00C590", "00B7A0", "03A9AD", "029ABD", "038DCE"]
+        },
+        //Esno
+        15: {
+            colors: ["F50E0E", "F64D12", "F58D16", "F6CC19"]
+        },
+        //Auroria
+        16: {
+            colors: ["7906DC", "520BDD", "2B0FDE", "0312DF", "2640C9", "4A6FB2", "76A9AE"]
+        },
+        //Void
+        17: {
+            colors: ["CDA5A5", "BFB1B2", "AFBDBC", "B3DEE0"]
+        },
+        //Smitty
+        18: {
+            colors: ["0411AD", "093FBE", "045884", "01868E", "1E9995", "01E3F8"]
+        },
+        //7Gale
+        19: {
+            colors: ["E49800", "4C4DE4", "4F52E0", "4D4FE1", "5353F8", "4C4DE4", "4F52E0", "4D4FE1", "5353F8"]
+        },
     },
     formats = {
         0: {
