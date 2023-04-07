@@ -110,6 +110,18 @@ const nickName = document.getElementById("nickname"),
         28: {
             colors: ["E40C0F", "0149E3"]
         },
+        //Shortass
+        29: {
+            colors: ["F5F18D", "23F7EA"]
+        },
+        //ElusiveFox
+        30: {
+            colors: ["2BB485", "DC852A"]
+        },
+        //CyanJesse
+        31: {
+            colors: ["01936A", "00F9F9"]
+        },
         //Default
         23: {
             colors: ["999999", "999999"]
