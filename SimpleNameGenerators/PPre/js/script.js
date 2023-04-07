@@ -270,6 +270,8 @@ function preset(e) {
 function Alert(){
     Alert("Nope.");
 }
-
-toggleColors(2), updateOutputText()
+toggleColors(2);
+updateOutputText();
+document.getElementById('darkmode').checked = true
+darkMode()
 

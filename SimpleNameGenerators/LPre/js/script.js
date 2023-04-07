@@ -13,7 +13,35 @@ const nickName = document.getElementById("nickname"),
         // Quality
         3: {
             colors: ["00FFE0", "27D5E5", "4EAAEA", "7680F0", "9D55F5", "C42BFA", "EB00FF"]
-        }
+        },
+        // Niedelie
+        4: {
+            colors: ["E0878C", "A387E0"]
+        },
+        // LordShisui
+        5: {
+            colors: ["A27BC9", "430808"]
+        },
+        // void
+        6: {
+            colors: ["DC4668", "8D59E2"]
+        },
+        // Starz
+        7: {
+            colors: ["0077CD", "005089"]
+        },
+        // Cutie
+        8: {
+            colors: ["970757", "970757"]
+        },
+        // Denstagmer
+        9: {
+            colors: ["B06A19", "6659B8"]
+        },
+        // WigglyBee
+        10: {
+            colors: ["DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B"]
+        },
     },
     formats = {
         0: {
@@ -213,5 +241,8 @@ function Alert(){
     Alert("Nope.");
 }
 
-toggleColors(2), updateOutputText()
+toggleColors(2);
+updateOutputText();
+document.getElementById('darkmode').checked = true
+darkMode()
 
