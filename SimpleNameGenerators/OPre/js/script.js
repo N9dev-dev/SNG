@@ -6,82 +6,67 @@ const nickName = document.getElementById("nickname"),
         1: {
             colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"]
         },
-        // me
+        // USA
         2: {
-            colors: ["3494E6", "4B8FDF", "628BD8", "7986D1", "9081CA", "A77CC2", "BE78BB", "D573B4", "EC6EAD"]
+            colors: ["0057FF", "FF0000", "FFFFFF"]
         },
-        // ben
+        // Naruto
         3: {
-            colors: ["621493", "54117e", "460e69", "380b54", "2a093f", "1c062a", "0e0315", "000000"]
+            colors: ["FE8C1E", "454844", "0A3A6C", "FFFFD4"]
         },
-        // mel
+        // Fire
         4: {
-            colors: ["5098ff", "3e95fe", "2d93fc", "1b90fb", "2889ec", "3481dc", "417acd"]
+            colors: ["A10100", "DA1F05", "F33C04", "FE650D", "FFC11F", "FFF75D"]
         },
-        // baron
+        // Water
         5: {
-            colors: ["d00000", "e4800a", "dad200", "07d003", "0014cb"]
+            colors: ["0f5e9c", "2389da", "1ca3ec", "5abcd8", "74ccf4"]
         },
-        // Shira
+        // Sun set
         6: {
-            colors: ["fb48f7", "eb44ed", "da3fe2", "ca3bd8", "ba36ce", "a932c3", "992db9", "8829ae", "7824a4"]
+            colors: ["F9ED69", "F08A5D", "B83B5E", "6A2C70"]
         },
-        // Davi
+        // Neon
         7: {
-            colors: ["00c0cc", "cc00c4", "cc00c4"]
+            colors: ["31E1F7", "400D51", "D800A6", "FF7777"]
         },
-        // Cookei
+        // Gold
         8: {
-            colors: ["25ffe5", "1fccea", "1899ef", "1266f5", "0b33fa", "0500ff"]
+            colors: ["FDEEDC", "FFD8A9", "F1A661", "E38B29"]
         },
-        // Crock
+        // Nature
         9: {
-            colors: ["ff2aea", "ff3fb0", "ff5575", "ff6a3b", "ff7f00"]
+            colors: ["A9907E", "F3DEBA", "ABC4AA", "675D50"]
         },
-        //Scrooge 
+        // Sky
         10: {
-            colors: ["fb0000", "fc1d05", "fc390a", "fd5610", "fe7313", "fe8f1a", "ffac1f"]
+            colors: ["82AAE3", "91D8E4", "BFEAF5", "EAFDFC"]
         },
-        //Mochi
+        // OuterSpace
         11: {
-            colors: ["90d35b", "a6de75", "bce890", "d1f3aa", "e7fdc4"]
+            colors: ["8BBCCC", "4C6793", "5C2E7E", "000000"]
         },
-        //Mabu
+        // Coffee
         12: {
-            colors: ["998CD1", "9C88C4", "A38ABC", "A787B0", "AB89A9", "C293AC", "C28D9B", "CA8F93"]
+            colors: ["1C0A00", "361500", "603601", "CC9544"]
         },
-        //Nikki
+        // Fall
         13: {
-            colors: ["E48C26", "E17F4C", "DF7470", "E26697", "DF6795", "E459BE"]
+            colors: ["EA5C2B", "FF7F3F", "F6D860", "95CD41"]
         },
-        //Zaffiro
+        // Night
         14: {
-            colors: ["03E26E", "00D581", "00C590", "00B7A0", "03A9AD", "029ABD", "038DCE"]
+            colors: ["404258", "474E68", "50577A", "6B728E"]
         },
-        //Esno
+        // Spring
         15: {
-            colors: ["F50E0E", "F64D12", "F58D16", "F6CC19"]
+            colors: ["76BA99", "ADCF9F", "CED89E", "FFDCAE"]
         },
-        //Auroria
+        // Halloween
         16: {
-            colors: ["7906DC", "520BDD", "2B0FDE", "0312DF", "2640C9", "4A6FB2", "76A9AE"]
+            colors: ["454545", "FF6000", "FFA559", "FFE6C7"]
         },
-        //Void
-        17: {
-            colors: ["CDA5A5", "BFB1B2", "AFBDBC", "B3DEE0"]
-        },
-        //Smitty
-        18: {
-            colors: ["0411AD", "093FBE", "045884", "01868E", "1E9995", "01E3F8"]
-        },
-        //7Gale
-        19: {
-            colors: ["E49800", "4C4DE4", "4F52E0", "4D4FE1", "5353F8", "4C4DE4", "4F52E0", "4D4FE1", "5353F8"]
-        },
-        //Free Wifi
-        20: {
-            colors: ["AFECBE", "055505"]
-        },
+        
     },
     formats = {
         0: {
@@ -274,6 +259,7 @@ function preset(e) {
 function Alert(){
     Alert("Nope.");
 }
+
 toggleColors(2);
 updateOutputText();
 document.getElementById('darkmode').checked = true
