@@ -57,7 +57,11 @@ const nickName = document.getElementById("nickname"),
         14: {
             colors: ["42FF00", "794A13", "42FF00", "794A13"],
             text: "Uninstall"
-        }
+        },
+        15: {
+            colors: ["EE84FF", "FF0000", "FF7051", "794A13"],
+            text: "PWNED"
+        },
         
     },
     formats = {
