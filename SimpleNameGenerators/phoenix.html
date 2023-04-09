@@ -5,6 +5,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/js.cookie.js"></script>
+    <script src="js/JSPresets/phoenixPresets.js"></script>  
     <title>Simple Survival Util</title>
   </head>
 
@@ -29,17 +30,6 @@
           <div class="col-md-10" style="padding-right: 0;">
             <div class="container-fluid">
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 256 character limit.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div id="coloredNick" class="minecraft"></div>
-              </div>
-              <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
                   <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
@@ -60,36 +50,37 @@
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="color-preset">Preset:</label>
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
-                    <option value="2">Dev</option>
-                    <option value="3">Bentooch</option>
-                    <option value="4">Mel Arky</option>
-                    <option value="5">Baron</option>
-                    <option value="6">Shirafune</option>
-                    <option value="7">Davi</option>
-                    <option value="8">Cookei</option>                    
-                    <option value="9">Crock</option>
-                    <option value="10">Scrooge</option>
-                    <option value="11">Mochi</option>
-                    <option value="12">MabuTsuki</option>
-                    <option value="13">Nikki</option>
-                    <option value="14">Zaffiro</option>
-                    <option value="15">Esno</option>
-                    <option value="16">Auroria</option>
-                    <option value="17">Void</option>
-                    <option value="18">Smitty</option>
-                    <option value="19">7Gale</option>
-                    <option value="20">Free Wifi</option>
-                    <option value="21">MacDaKing</option>
-                    <option value="22">SmooshYT</option>
-                    <option value="24">iBurkie</option>
-                    <option value="25">hevnoorak</option>
-                    <option value="26">DuckHidan</option>
-                    <option value="27">Fancy</option>
-                    <option value="28">SidFury</option>
-                    <option value="29">Shortass</option>
-                    <option value="30">ElusiveFox</option>
-                    <option value="31">CyanJesse</option>
-                    <option value="32">Colderrrr</option>
+                    <option value="0">None</option>
+                    <option value="1">Dev</option>
+                    <option value="2">Bentooch</option>
+                    <option value="3">Mel Arky</option>
+                    <option value="4">Baron</option>
+                    <option value="5">Shirafune</option>
+                    <option value="p6">Davi</option>
+                    <option value="p7">Cookei</option>                    
+                    <option value="p8">Crock</option>
+                    <option value="p9">Scrooge</option>
+                    <option value="p10">Mochi</option>
+                    <option value="p11">MabuTsuki</option>
+                    <option value="p12">Nikki</option>
+                    <option value="p13">Zaffiro</option>
+                    <option value="p14">Esno</option>
+                    <option value="p15">Auroria</option>
+                    <option value="p16">Void</option>
+                    <option value="p17">Smitty</option>
+                    <option value="p18">7Gale</option>
+                    <option value="p19">Free Wifi</option>
+                    <option value="p20">MacDaKing</option>
+                    <option value="p21">SmooshYT</option>
+                    <option value="p22">iBurkie</option>
+                    <option value="p25">hevnoorak</option>
+                    <option value="p26">DuckHidan</option>
+                    <option value="p27">Fancy</option>
+                    <option value="p28">SidFury</option>
+                    <option value="p29">Shortass</option>
+                    <option value="p30">ElusiveFox</option>
+                    <option value="p31">CyanJesse</option>
+                    <option value="p32">Colderrrr</option>
                     <option value="23">Default (no nick)</option>
                   </select>
                 </div>
@@ -116,14 +107,24 @@
                   <label id="strike" for="strike">Strikethrough</label>
                 </div>
               </div>
+              <div class="row">
+                <div id="coloredNick" class="minecraft"></div>
+              </div>
+              <div class="row">
+                <div id="output">
+                  <label id="label4" for="outputText">Output Command</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 20px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 10 character limit.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/script.js"></script>
-    
+    <script src="js/main.js"></script>
 
   <footer>
     <p>Phoenix server on top. 🪶 - Credits goes to rgb.birdflop.com</p>

@@ -29,27 +29,16 @@
           <div class="col-md-10" style="padding-right: 0;">
             <div class="container-fluid">
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 256 character limit.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div id="coloredNick" class="minecraft"></div>
-              </div>
-              <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
-                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
+                  <input class="form-control" id="nickname" type="text" maxlength="10" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
               <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="output-format">Format:</label>
                   <select id="output-format" class="form-control" onchange="updateOutputText(event);">
-                    <option value="0">/nick {#rrggbb}</option>
+                    <option value="0" selected>/nick {#rrggbb}</option>
                     <option value="1">/nick <#rrggbb></option>
                     <option value="2">Suffix {#rrggbb}</option>
                     <option value="3">Suffix <#rrggbb></option>
@@ -62,28 +51,38 @@
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
                     <option value="1">Rainbow</option>
-                    <option value="2">USA</option>
-                    <option value="3">Naruto</option>
-                    <option value="4">Fire</option>
-                    <option value="5">Water</option>
-                    <option value="6">Sun Set</option>
-                    <option value="7">Neon</option>
-                    <option value="8">Gold</option>
-                    <option value="9">Nature</option>
-                    <option value="10">Sky</option>
-                    <option value="11">Outer Space</option>
-                    <option value="12">Coffee</option>
-                    <option value="13">Fall</option>
-                    <option value="14">Night</option>
-                    <option value="15">Spring</option>
-                    <option value="16">Halloween</option>
-
+                    <option value="2">Sunny Days</option>
+                    <option value="3">Harmonic Energy</option>
+                    <option value="4">Cool Brown</option>
+                    <option value="5">Hazel</option>
+                    <option value="6">Sea Blue</option>
+                    <option value="7">Purple Love</option>
+                    <option value="8">Sel</option>
+                    <option value="9">Anamnisar</option>
+                    <option value="10">Copper</option>
+                    <option value="11">Pea</option>
+                    <option value="12">Mango</option>
+                    <option value="13">Lunada</option>
+                    <option value="14">Shine</option>
+                    <option value="15">Ultra Violet</option>
+                    <option value="16">Summer Dog</option>
+                    <option value="17">Citrus</option>
+                    <option value="18">Magic</option>
+                    <option value="19">eXpresso</option>
+                    <option value="20">Moon Purple</option>
+                    <option value="21">Quepal</option>
+                    <option value="22">Sublime Light</option>
+                    <option value="23">Delicate</option>
+                    <option value="24">Digital Water</option>
+                    <option value="25">Pepsi</option>
+                    <option value="26">Cola</option>
+                  
                   </select>
                 </div>
               </div>
               <div class="row">
                 <label for="numOfColors">Amount of Colors for da <span>gradient(s)</span>:</label>
-                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="10" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
+                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="1" max="20" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
               </div>
               <div class="row">
                 <div id="dbold">
@@ -103,13 +102,26 @@
                   <label id="strike" for="strike">Strikethrough</label>
                 </div>
               </div>
+
+              <div class="row">
+                <div id="coloredNick" class="minecraft"></div>
+              </div>
+              <div class="row">
+                <div id="output">
+                  <label id="label4" for="outputText">Output Command</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 20px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 10 character limit.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/JSPresets/otherPresets.js"></script>
     
 
   <footer>

@@ -1,52 +1,6 @@
 const nickName = document.getElementById("nickname"),
     coloredNick = document.getElementById("coloredNick"),
-    savedColors = ["0d6efd", "ffeeff", getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()],
-    presets = {
-        // Rainbow
-        1: {
-            colors: ["FF0000", "FF7F00", "FFFF00", "00FF00", "0000FF", "4B0082", "9400D3"]
-        },
-        // King
-        2: {
-            colors: ["b3a100", "00a8b3"]
-        },
-        // Quality
-        3: {
-            colors: ["ECDDD0", "E2DEDA", "D9DEE4", "CFDFEE", "DADEE3", "E5DED8", "F0DDCD"]
-        },
-        // Niedelie
-        4: {
-            colors: ["E0878C", "A387E0"]
-        },
-        // LordShisui
-        5: {
-            colors: ["A27BC9", "430808"]
-        },
-        // void
-        6: {
-            colors: ["DC4668", "8D59E2"]
-        },
-        // Starz
-        7: {
-            colors: ["0077CD", "005089"]
-        },
-        // Cutie
-        8: {
-            colors: ["970757", "970757"]
-        },
-        // Denstagmer
-        9: {
-            colors: ["B06A19", "6659B8"]
-        },
-        // WigglyBee
-        10: {
-            colors: ["DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B", "DCAC1E", "61391B"]
-        },
-        // Themis
-        11: {
-            colors: ["65adcd", "75b6d2", "86bfd7", "96c8dc", "a7d1e1", "b8dae6"]
-        }
-    },
+    savedColors = [getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor(), getRandomHexColor()],
     formats = {
         0: {
             outputPrefix: "/nick ",
@@ -240,6 +194,17 @@ function preset(e) {
     }
     jscolor.install()
 }
+
+const DefualtFormat = (e) => {
+    const text = '/nick {#rrggbb}';
+    const $select = document.querySelector('#output-format');
+    const $options = Array.from($select.options);
+    const optionToSelect = $options.find(item => item.text ===text);
+    optionToSelect.selected = true;
+    updateOutputText();
+  };
+
+
 
 function Alert(){
     Alert("Nope.");

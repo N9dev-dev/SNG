@@ -6,6 +6,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/js.cookie.js"></script>
     <title>Simple Survival Util</title>
+    <script src="js/JSPresets/lynxPresets.js"></script>
   </head>
 
   <body id="bg" class="container" style="font-family: Quicksand;">
@@ -29,20 +30,9 @@
           <div class="col-md-10" style="padding-right: 0;">
             <div class="container-fluid">
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 256 character limit.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div id="coloredNick" class="minecraft"></div>
-              </div>
-              <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
-                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
+                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="WeLoveLynx" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
               <div class="row">
@@ -61,17 +51,16 @@
                   <label for="color-preset">Preset:</label>
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
-                    <option value="1">Raiinnnbooww</option>
-                    <option value="2">KingStefan</option>
-                    <option value="3">Quality</option>
-                    <option value="4">Niedelie</option>
-                    <option value="5">LordShisui</option>
-                    <option value="6">Void</option>
-                    <option value="7">Starz</option>
-                    <option value="8">Cutie</option>
-                    <option value="9">Denstagmer</option>
-                    <option value="10">WigglyBee</option>
-                    <option value="11">Themis</option>
+                    <option value="1">KingStefan</option>
+                    <option value="2">Quality</option>
+                    <option value="3">Niedelie</option>
+                    <option value="4">LordShisui</option>
+                    <option value="5">Void</option>
+                    <option value="6">Starz</option>
+                    <option value="7">Cutie</option>
+                    <option value="8">Denstagmer</option>
+                    <option value="9">WigglyBee</option>
+                    <option value="10">Themis</option>
                   </select>
                 </div>
               </div>
@@ -97,13 +86,24 @@
                   <label id="strike" for="strike">Strikethrough</label>
                 </div>
               </div>
+              <div class="row">
+                <div id="coloredNick" class="minecraft"></div>
+              </div>
+              <div class="row">
+                <div id="output">
+                  <label id="label4" for="outputText">Output Command</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 20px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 10 character limit.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
     
 
   <footer>

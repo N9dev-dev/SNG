@@ -3,6 +3,10 @@ body {
   color: #ffff;
 }
 
+/* .resetbtn {
+  float: left;
+} */
+
 .color {
   width: 100%;
 }
@@ -50,57 +54,57 @@ select.dark {
 }
 @font-face {
    font-family: MinecraftRegular;
-   src: url(../MinecraftRegular.otf);
+   src: url(/SimpleNameGenerators/minecraft/MinecraftRegular.otf);
 }
 @font-face {
    font-family: MinecraftBold;
-   src: url(../MinecraftBold.otf);
+   src: url(/SimpleNameGenerators/minecraft/MinecraftBold.otf);
 }
 @font-face {
    font-family: MinecraftItalic;
-   src: url(../MinecraftItalic.otf);
+   src: url(/SimpleNameGenerators/minecraft/MinecraftItalic.otf);
 }
 @font-face {
    font-family: MinecraftBoldItalic;
-   src: url(../MinecraftBoldItalic.otf);
+   src: url(/SimpleNameGenerators/minecraft/MinecraftBoldItalic.otf);
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(../fonts/300.ttf) format('truetype');
+  src: url(/SimpleNameGenerators/fonts/300.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(../fonts/500.ttf) format('truetype');
+  src: url(/SimpleNameGenerators/fonts/500.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(../fonts/600.ttf) format('truetype');
+  src: url(/SimpleNameGenerators/fonts/600.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(../fonts/700.ttf) format('truetype');
+  src: url(/SimpleNameGenerators/fonts/700.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: regular;
   font-display: swap;
   font-weight: 400;
-  src: url(../fonts/regular.ttf) format('truetype');
+  src: url(/SimpleNameGenerators/fonts/regular.ttf) format('truetype');
 }
 #coloredNick {
-  font-size: 4rem;
+  font-size: 10rem;
   word-wrap: break-word;
 }
 .minecraft {
