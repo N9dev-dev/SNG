@@ -7,59 +7,98 @@
     <title>SNG</title>
     <link rel="icon" sizes="192x192" href="https://static.wixstatic.com/media/61a97e_8c4c0c4ca3234cb08a444bed447e5de9%7Emv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/61a97e_8c4c0c4ca3234cb08a444bed447e5de9%7Emv2.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abhaya+Libre&amp;display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Major+Mono+Display&amp;display=swap">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/Projects-Grid-images.css">
 </head>
 
-<body>
-    <div class="container py-4 py-xl-5">
-        <nav class="navbar navbar-light navbar-expand-md py-3" style="padding-bottom: 0px;margin-bottom: 54px;">
-            <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 57px;">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 4H8V6H5C3.34315 6 2 7.34315 2 9V15C2 16.6569 3.34315 18 5 18H8V20H10V4ZM8 8V16H5C4.44772 16 4 15.5523 4 15V9C4 8.44772 4.44772 8 5 8H8Z" fill="currentColor"></path>
-                            <path d="M19 16H12V18H19C20.6569 18 22 16.6569 22 15V9C22 7.34315 20.6569 6 19 6H12V8H19C19.5523 8 20 8.44771 20 9V15C20 15.5523 19.5523 16 19 16Z" fill="currentColor"></path>
-                        </svg></span><span>Simple Name Generator</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navcol-2">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="SimpleNameGenerators/WPre/index.html" style="font-size: 17px;">Wyvern Presets</a></li>
-                        <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="SimpleNameGenerators/PPre/index.html" style="font-size: 17px;">Phoenix Presets</a></li>
-                        <li class="nav-item" style="font-size: 17px;"></li>
-                        <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="SimpleNameGenerators/LPre/index.html" style="font-size: 17px;">Lynx Presets</a></li>
-                        <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="SimpleNameGenerators/SPre/index.html" style="font-size: 17px;">Staff Presets</a></li>
-                        <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="SimpleNameGenerators/OPre/index.html" style="font-size: 17px;">Other Presets</a></li>
-                        <li class="nav-item" style="font-size: 17px;"><a class="nav-link" href="SimpleSuffixGenerators/TSuf/index.html" style="font-size: 17px;">Toxic Suffixes</a></li>
-                        <li class="nav-item"></li>
-                    </ul>
-                </div>
+<body class="text-white text-bg-dark" style="background: #212529;color: #ffffff;">
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 76px;">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10 4H8V6H5C3.34315 6 2 7.34315 2 9V15C2 16.6569 3.34315 18 5 18H8V20H10V4ZM8 8V16H5C4.44772 16 4 15.5523 4 15V9C4 8.44772 4.44772 8 5 8H8Z" fill="currentColor"></path>
+                        <path d="M19 16H12V18H19C20.6569 18 22 16.6569 22 15V9C22 7.34315 20.6569 6 19 6H12V8H19C19.5523 8 20 8.44771 20 9V15C20 15.5523 19.5523 16 19 16Z" fill="currentColor"></path>
+                    </svg></span><span>SNG by Dev.</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-5"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Nick Presets</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Phoenix</a><a class="dropdown-item" href="#">Wyvern</a><a class="dropdown-item" href="#">Staff</a><a class="dropdown-item" href="#">Other</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Suffix Presets</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Clan</a><a class="dropdown-item" href="#">Toxic</a><a class="dropdown-item" href="#">Other</a></div>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <div class="container py-4 py-xl-5">
         <div class="row mb-5">
             <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <h2>Project Simple Name Generator V1.4</h2>
-                <p>Forgive My English!<br><br>Project SNG by Dev makes nick-naming, suffix-ing easier. The Original website (rgb.birdflop.com) doesn't support the Simple Survival nick-naming system, and that's why this project is made.<br><br>Owner's IGN: ImDev 🧑‍💻<br>Discord: nw9r#2568<br>Server Plays On: Phoenix 🪶 <br><br> Total Presets: 86 <br><br>Phoenix: 30 Player Presets<br><br>Wyvern: 20 Player Presets<br><br>Lynx: 10 Player Presets<br><br>Staff: 10 Staff Presets<br><br>Other: 16 Other Presets</p>
+                <h2><i class="far fa-star" style="color: var(--bs-blue);"></i>&nbsp;Simple Name Generator&nbsp;<i class="far fa-star" style="color: var(--bs-blue);"></i></h2>
+                <p><span style="text-shadow: 0px 0px 10px;">Simple Name Generator&nbsp;</span>is a utility tool used for re-naming, specialized in&nbsp;<span style="text-shadow: 0px 0px 10px;">generating</span> nicks for <span style="text-shadow: 0px 0px 20px var(--bs-blue);">Simple Survival</span>, as the <span style="text-shadow: 0px 0px 20px var(--bs-blue);">Simple Survival</span>&nbsp;server uses a /nick format that isn't supported by the original website <a href="https://rgb.birdflop.com" style="color: rgb(255,255,255);">BirdFlop</a>.</p>
             </div>
         </div>
-        <hr style="border-width: 9px;border-style: dotted;border-bottom-style: none;border-radius: 0;margin-left: -1012px;">
-        <div class="row mb-5" style="margin-top: 68px;">
-            <div class="col-md-8 col-xl-6 text-center mx-auto">
-                <h2>How To Add Your Own Preset</h2>
-                <p style="text-align: left;">If im in the same server with you just ask me and I'll do it for you <br> or <br> 1. Get your /nick:<br># By typing /nick and hitting space bar an auto complete of your nick should pop up.<br>2. Send your /nick<br># Send your /nick to the Owner's discord, format:<br>[/nick yourNickName] [Server you play on] [IGN]<br># After some time, days or even weeks the website should have your nick as a preset.</p>
-            </div>
-        </div>
-        <footer class="text-center">
-            <div class="container text-muted py-4 py-lg-5">
-                <ul class="list-inline">
-                    <li class="list-inline-item me-4"></li>
-                    <li class="list-inline-item me-4"></li>
-                    <li class="list-inline-item"></li>
-                </ul>
-                <p class="mb-0">Copyright © 2023 ImDev</p>
-            </div>
-        </footer>
+        <hr style="border-radius: 0;color: var(--bs-blue);border: 8px inset var(--bs-blue);">
     </div>
+    <div class="container py-4 py-xl-5">
+        <div class="row mb-5">
+            <div class="col-md-8 col-xl-6 text-center mx-auto">
+                <h2> Why Use SNG?</h2>
+                <p>Here are some reasons why you should make SNG your main nick-naming tool.</p>
+            </div>
+        </div>
+        <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3" style="color: #212529;">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" style="font-size: 37px;">
+                                <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"></path>
+                            </svg></div>
+                        <h4 class="card-title">EASY</h4>
+                        <p class="card-text">Compared to other tools, SNG is a very beginner friendly tool. Everything is crystal clear.<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" style="font-size: 91px;">
+                                <path d="M11.9333 12.8C12.4667 12.4 12.4667 11.6 11.9333 11.2L6.6 7.19998C5.94076 6.70556 5 7.17594 5 7.99998L5 16C5 16.824 5.94076 17.2944 6.6 16.8L11.9333 12.8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M19.9333 12.8C20.4667 12.4 20.4667 11.6 19.9333 11.2L14.6 7.19998C13.9408 6.70556 13 7.17594 13 7.99998L13 16C13 16.824 13.9408 17.2944 14.6 16.8L19.9333 12.8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg></div>
+                        <h4 class="card-title">QUICK</h4>
+                        <p class="card-text">You can generate a /nick command in less than 30 seconds. So what are you waiting? give it a go!<br><br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body p-4">
+                        <div class="bs-icon-md bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center d-inline-block mb-3 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-check2-all" style="font-size: 41px;">
+                                <path d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0l7-7zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0z"></path>
+                                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708z"></path>
+                            </svg></div>
+                        <h4 class="card-title">COMPATIBLE</h4>
+                        <p class="card-text">SNG is made to support a huge amount of formats, and if you find a format that isn't available, please contact me!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="border-radius: 0;margin-top: 77px;border: 8px inset var(--bs-blue);">
+    </div>
+    <footer class="text-center bg-dark">
+        <div class="container text-white py-4 py-lg-5">
+            <ul class="list-inline">
+                <li class="list-inline-item me-4"><a class="link-light" href="#">Made By Dev</a></li>
+                <li class="list-inline-item me-4"><a class="link-light" href="#">For</a></li>
+                <li class="list-inline-item"><a class="link-light" href="#">Simple Survival</a></li>
+            </ul>
+            <p class="text-muted mb-0">Copyright © 2023 ImDev</p>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/Button-Ripple-Effect-Animation-Wave-Pulse-button-ripple-effect.js"></script>
+    <script src="assets/js/discordContact.js"></script>
 </body>
 
 </html>

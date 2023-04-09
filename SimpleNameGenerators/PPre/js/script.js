@@ -122,6 +122,10 @@ const nickName = document.getElementById("nickname"),
         31: {
             colors: ["01936A", "00F9F9"]
         },
+        //Colderrrr
+        32: {
+            colors: ["9c60eb", "5da0f0"]
+        },
         //Default
         23: {
             colors: ["999999", "999999"]
