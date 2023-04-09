@@ -54,19 +54,19 @@ select.dark {
 }
 @font-face {
    font-family: MinecraftRegular;
-   src: url(/minecraft/MinecraftRegular.otf);
+   src: url(/SimpleNameGenerators/MinecraftRegular.otf);
 }
 @font-face {
    font-family: MinecraftBold;
-   src: url(/minecraft/MinecraftBold.otf);
+   src: url(/SimpleNameGenerators/MinecraftBold.otf);
 }
 @font-face {
    font-family: MinecraftItalic;
-   src: url(/minecraft/MinecraftItalic.otf);
+   src: url(/SimpleNameGenerators/MinecraftItalic.otf);
 }
 @font-face {
    font-family: MinecraftBoldItalic;
-   src: url(/minecraft/MinecraftBoldItalic.otf);
+   src: url(/SimpleNameGenerators/MinecraftBoldItalic.otf);
 }
 @font-face {
   font-family: 'Quicksand';
