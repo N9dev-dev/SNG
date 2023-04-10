@@ -2,49 +2,10 @@
 
 
 
-me (dev) = colors: ["3494E6", "4B8FDF", "628BD8", "7986D1", "9081CA", "A77CC2", "BE78BB", "D573B4", "EC6EAD"]
-Bentooch = colors: ["621493", "54117e", "460e69", "380b54", "2a093f", "1c062a", "0e0315", "000000"]
-Mel Arky = colors: ["5098ff", "3e95fe", "2d93fc", "1b90fb", "2889ec", "3481dc", "417acd"]
-Baron (phoenix style) = colors: ["d00000", "e4800a", "dad200", "07d003", "0014cb"]
-shirafune = colors: ["fb48f7", "eb44ed", "da3fe2", "ca3bd8", "ba36ce", "a932c3", "992db9", "8829ae", "7824a4"]
-Davi = colors: ["00c0cc", "cc00c4", "cc00c4"]
-Crock = colors: ["ff2aea", "ff3fb0", "ff5575", "ff6a3b", "ff7f00"]
-Cookie = colors: ["25ffe5", "1fccea", "1899ef", "1266f5", "0b33fa", "0500ff"]
-Mochi = colors: ["90d35b", "a6de75", "bce890", "d1f3aa", "e7fdc4"]
-Scrooge = colors: ["fb0000", "fc1d05", "fc390a", "fd5610", "fe7313", "fe8f1a", "ffac1f"]
-juanito = colors: ["34DB09", "FFFFFF", "99884B", "FFFFFF", "F90000"]
-Danie = colors: ["64F8C7", "F9F995"]
-Koen = colors: ["E00000", "B4A202"]
-Fancy = colors: ["F5489B", "F38DF5"]
-MacDaKing = colors: ["DA0101", "075EE0", "5642A0"]
-AlexTheFarmer = colors: ["E49801", "E49801"]
-Vince = colors: ["2E0360","100B61", "005619"]
-hevnoorak = colors: ["3EA9DE", "A7D241", "D74E19"]
-Esno = colors: ["DD0F0D", "F6CB19"]
-iBurkie = colors: ["019800", "53F9F9"]
-Colderr = colors: ["8E5AD2", "5892D7"]
-Frogzie = colors: ["202E1D", "63AF36"]
-Teddybil = colors: ["1D1D1D", "323232", "E40859"]
-elusivefox = colors: ["2AB889", "E58B2D"]
-Frosty = colors: ["0BB5E1", "1655DF"]
-
-
 
 
 
 ------------Wyvern Players------------
-
-Rapha = colors: ["B37F4A", "822035"]
-BigGavvy = colors: ["4DE44D", "DFDFDE", "E19601"]
-Lora = colors: ["0F7CBB", "01C795"]
-Loki = colors: ["244717", "57E019"]
-Wolfie10 = colors: ["070402", "101DC2", "EB11EA", "9A10F9"]
-Zach = colors: ["010000", "890000"]
-Aarthos = colors: ["293945", "87BAE0"]
-Aazronn = colors: ["0C032D", "0C032D"]
-Ruubsen = colors: ["4201CD", "160045"]
-Jessie = colors: ["0BCDC4", "C5DA0D"]
-Omega = colors: ["DE0704", "58F700"]
 
 
 
@@ -65,25 +26,6 @@ Omega = colors: ["DE0704", "58F700"]
 
 
 
-Themis = colors: ["65adcd", "75b6d2", "86bfd7", "96c8dc", "a7d1e1", "b8dae6"]
-Duckyy = colors: ["F5BF48", "F7E824"]
-Reaperr = colors: ["E20909", "F7F5F5", "E10808"]
-Vobie = colors: ["E4C28C", "97F8F9"]
-FxpWilhelm = colors: ["E40101", "E4E400"]
-ORSETTOOOO = colors: ["E02020", "1E29E1", "DB0101"]
-denstagmer = colors: ["B06A19", "6F61C9"]
-Twister = colors: ["0F2ED6", "5899E5"]
-Bandito = colors: ["4A0708", "180101"]
-BlackWall = colors: ["221F1F", "5E5656"]
-Cookie = colors: ["E83232", "0DF9DD"]
-Waffle = colors: ["9C697C", "9C697C"]
-HEISENBERG = colors: ["9C0909", "9C0909"]
-Sonny = colors: ["304DE2", "F77ABD"]
-Kuduz = colors: ["1FAC21", "2E5BE3", "652591"]
-
-
-
-
 
 
 
@@ -94,19 +36,6 @@ Kuduz = colors: ["1FAC21", "2E5BE3", "652591"]
 
 
 ------------Staff Players------------
-
-
-
-
-Bunnyx3 = colors: ["d6d8fb", "d9d4fb", "dbd0fc", "decdfc", "e1c9fc", "e3c5fd", "e6c1fd"]
-LissiGirl = colors: ["8b00cc", "9c34f6", "ae69ee", "bf9de5", "A2A9B3", "A2A9B3", "a2c7e0", "73bce4", "45b1e8"]
-MollyP = colors: ["8C168A", "010795"]
-Blream = colors: ["E41FD0", "E4C28D"]
-Sunny = colors: ["CE099D", "CEBA01"]
-Jadz = colors: ["CC285C", "DF6EC7"]
-LissiGirl (Rainbow Edition) = colors: ["C365BF", "8771D0", "87B5EB", "6AC66A", "D3C46E", "C95E5A"]
-
-
 
 
 
