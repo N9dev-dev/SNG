@@ -22,6 +22,9 @@ Vince = colors: ["2E0360","100B61", "005619"]
 hevnoorak = colors: ["3EA9DE", "A7D241", "D74E19"]
 Esno = colors: ["DD0F0D", "F6CB19"]
 iBurkie = colors: ["019800", "53F9F9"]
+Colderr = colors: ["8E5AD2", "5892D7"]
+Frogzie = colors: ["202E1D", "63AF36"]
+Teddybil = colors: ["1D1D1D", "E40859"]
 
 
 
@@ -97,7 +100,7 @@ Kuduz = colors: ["1FAC21", "2E5BE3", "652591"]
 Bunnyx3 = colors: ["d6d8fb", "d9d4fb", "dbd0fc", "decdfc", "e1c9fc", "e3c5fd", "e6c1fd"]
 LissiGirl = colors: ["8b00cc", "9c34f6", "ae69ee", "bf9de5", "A2A9B3", "A2A9B3", "a2c7e0", "73bce4", "45b1e8"]
 MollyP = colors: ["8C168A", "010795"]
-
+Blream = colors: ["E41FD0", "E4C28D"]
 
 
 
