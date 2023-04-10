@@ -21,6 +21,11 @@ const nickName = document.getElementById("nickname"),
             colors: ["DE090D", "0595E7"],
             suff: "AfkGOD"
         },
+        // Cookei
+        c1: {
+            colors: ["2000E3", "DD721E"],
+            suff: "Champs"
+        },
     },
     formats = {
         0: {
