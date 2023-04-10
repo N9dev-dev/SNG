@@ -1,34 +1,33 @@
 body {
   background-color: #212529;
-  color: #ffff;
+  color: #FFFFFF;
 }
-
-/* .resetbtn {
-  float: left;
-} */
 
 .color {
   width: 100%;
 }
-.darktextboxes {
+/* .darktextboxes {
   background-color:rgb(162, 162, 162);
   border-color:rgb(255, 255, 255);
   color:white;
-}
+} */
 .darkgray {
   color:darkgray;
+}
+.white {
+  color:white;
 }
 .gray {
   color:gray;
 }
 .darkerrortext {
-  color:red;
+  color: #0D6EFD;
 }
 .errortext {
-  color:darkred;
+  color:#0D6EFD;
 }
 .cpypstt {
-  color: #0d6efd;
+  color: #0D6EFD;
   outline-width: 0.5rem;
   outline: thin;
 }
@@ -38,10 +37,10 @@ body {
 .pp {
   -ms-overflow-style: none; scrollbar-width: none;
 }
-body.dark {
+/* body.dark {
   background-color:#1c1c1c;
   color:white;
-}
+} */
 select.dark {
   background-color:#1F2933;
   border-color:#2C3844;
@@ -53,62 +52,63 @@ select.dark {
   flex-direction: row;
 }
 @font-face {
-  font-family: MinecraftRegular;
-  src: url(../MinecraftRegular.otf);
+   font-family: MinecraftRegular;
+   src: url(../MinecraftRegular.otf);
 }
 @font-face {
-  font-family: MinecraftBold;
-  src: url(../MinecraftBold.otf);
+   font-family: MinecraftBold;
+   src: url(../MinecraftBold.otf);
 }
 @font-face {
-  font-family: MinecraftItalic;
-  src: url(../MinecraftItalic.otf);
+   font-family: MinecraftItalic;
+   src: url(../MinecraftItalic.otf);
 }
 @font-face {
-  font-family: MinecraftBoldItalic;
-  src: url(../MinecraftBoldItalic.otf);
+   font-family: MinecraftBoldItalic;
+   src: url(../MinecraftBoldItalic.otf);
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 300;
-  src: url(/SimpleNameGenerators/fonts/300.ttf) format('truetype');
+  src: url(../fonts/300.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 500;
-  src: url(/SimpleNameGenerators/fonts/500.ttf) format('truetype');
+  src: url(../fonts/500.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 600;
-  src: url(/SimpleNameGenerators/fonts/600.ttf) format('truetype');
+  src: url(../fonts/600.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: normal;
   font-display: swap;
   font-weight: 700;
-  src: url(/SimpleNameGenerators/fonts/700.ttf) format('truetype');
+  src: url(../fonts/700.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Quicksand';
   font-style: regular;
   font-display: swap;
   font-weight: 400;
-  src: url(/SimpleNameGenerators/fonts/regular.ttf) format('truetype');
+  src: url(../fonts/regular.ttf) format('truetype');
 }
 #coloredNick {
-  font-size: 10rem;
+  font-size: 6rem;
   word-wrap: break-word;
 }
 .minecraft {
   font-family: MinecraftRegular;
+
 }
 .minecraftbold {
   font-family: MinecraftBold;
@@ -137,7 +137,7 @@ footer{
 }
 #title {
     position:relative;
-    background: linear-gradient(to right, #ff0000, #ff7300 , #eeff00, #1eff00, #0059ff);
+    background: linear-gradient(to right,  #0D6EFD, #9B9D9E , #FFFFFF, #0D6EFD, #FFFFFF);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;

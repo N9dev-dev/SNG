@@ -5,8 +5,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/js.cookie.js"></script>
-    <script src="js/JSPresets/phoenixPresets.js"></script>  
-    <title>Simple Survival Util</title>
+    <title>SNG</title>
   </head>
 
   <body id="bg" class="container" style="font-family: Quicksand;">
@@ -20,7 +19,7 @@
     
     <div id="content">
       <h1 id="title">Simple Name Generator</h1>
-      <p id="graylabel1" class="gray" style="padding-bottom: 10px;">Phoenix Presets</p>
+      <p id="graylabel1" class="white" style="padding-bottom: 10px;">Phoenix Presets</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2" style="padding-left: 0;">
@@ -32,7 +31,7 @@
               <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
-                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
+                  <input class="form-control" id="nickname" type="text" maxlength="1000" placeholder="Your Nickname" value="TYBirdFlop" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
               <div class="row">
@@ -40,9 +39,8 @@
                   <label for="output-format">Format:</label>
                   <select id="output-format" class="form-control" onchange="updateOutputText(event);">
                     <option value="0">/nick {#rrggbb}</option>
-                    <option value="1">/nick <#rrggbb></option>
-                    <option value="2">Suffix {#rrggbb}</option>
-                    <option value="3">Suffix <#rrggbb></option>
+                    <option value="1">/nick (&x&r&r&g&g&b&b)</option>
+                    <option value="2">(Suffix) {#rrggbb}</option>
                   </select>
                 </div>
               </div>
@@ -51,43 +49,34 @@
                   <label for="color-preset">Preset:</label>
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
-                    <option value="1">Dev</option>
-                    <option value="2">Bentooch</option>
-                    <option value="3">Mel Arky</option>
-                    <option value="4">Baron</option>
-                    <option value="5">Shirafune</option>
-                    <option value="p6">Davi</option>
-                    <option value="p7">Cookei</option>                    
-                    <option value="p8">Crock</option>
-                    <option value="p9">Scrooge</option>
-                    <option value="p10">Mochi</option>
-                    <option value="p11">MabuTsuki</option>
-                    <option value="p12">Nikki</option>
-                    <option value="p13">Zaffiro</option>
-                    <option value="p14">Esno</option>
-                    <option value="p15">Auroria</option>
-                    <option value="p16">Void</option>
-                    <option value="p17">Smitty</option>
-                    <option value="p18">7Gale</option>
-                    <option value="p19">Free Wifi</option>
-                    <option value="p20">MacDaKing</option>
-                    <option value="p21">SmooshYT</option>
-                    <option value="p22">iBurkie</option>
-                    <option value="p25">hevnoorak</option>
-                    <option value="p26">DuckHidan</option>
-                    <option value="p27">Fancy</option>
-                    <option value="p28">SidFury</option>
-                    <option value="p29">Shortass</option>
-                    <option value="p30">ElusiveFox</option>
-                    <option value="p31">CyanJesse</option>
-                    <option value="p32">Colderrrr</option>
-                    <option value="23">Default (no nick)</option>
+                    <option value="1">Raiinnnbooww</option>
+                    <option value="s2">Bunnyx3</option>
+                    <option value="s3">LissiGirl</option>
+                    <!-- <option value="s4"></option>
+                    <!-- <option value="5">Lissi</option>
+                    <option value="6">Baron</option>
+                    <option value="7">Shirafune</option>
+                    <option value="8">Davi</option>
+                    <option value="9">Crock</option>
+                    <option value="10">Cookei</option>
+                    <option value="11">Mochi</option>
+                    <option value="14">Scrooge</option>
+                    <option value="15">Juanito</option>
+                    <option value="16">Danie</option>
+                    <option value="17">Koen</option>
+                    <option value="18">Fancy</option>
+                    <option value="19">MacDaKing</option>
+                    <option value="20">AlexTheFarmer</option>
+                    <option value="21">Vince</option>
+                    <option value="22">hevnoorak</option>
+                    <option value="23">Esno</option>
+                    <option value="24">iBurkie</option> -->
                   </select>
                 </div>
               </div>
               <div class="row">
-                <label for="numOfColors">Amount of Colors for da <span>gradient(s)</span>:</label>
-                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="10" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
+                <label for="numOfColors">Amount of Colors for da gradient(s):</label>
+                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="100" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
               </div>
               <div class="row">
                 <div id="dbold">
@@ -111,11 +100,11 @@
                 <div id="coloredNick" class="minecraft"></div>
               </div>
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 20px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 10 character limit.</p>
+                <div id="output" class="">
+                  <label id="label4" class="" for="outputText">Output Value</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;" onclick="CopyToClipboard('outputText');return false;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 256 character limit.</p>
                 </div>
               </div>
             </div>
@@ -124,10 +113,11 @@
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+    
 
   <footer>
-    <p>Phoenix server on top. 🪶 - Credits goes to rgb.birdflop.com</p>
+    <p>Made with 💓 by Dev, thanks to BirdFlop 🐦.</p>
   </footer>
 
 </body></html>

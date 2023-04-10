@@ -5,7 +5,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/js.cookie.js"></script>
-    <title>Simple Survival Util</title>
+    <title>SNG</title>
   </head>
 
   <body id="bg" class="container" style="font-family: Quicksand;">
@@ -19,7 +19,7 @@
     
     <div id="content">
       <h1 id="title">Simple Name Generator</h1>
-      <p id="graylabel1" class="gray" style="padding-bottom: 10px;">Staff Presets</p>
+      <p id="graylabel1" class="white" style="padding-bottom: 10px;">Phoenix Presets</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2" style="padding-left: 0;">
@@ -31,7 +31,7 @@
               <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
-                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="TYAll" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
+                  <input class="form-control" id="nickname" type="text" maxlength="1000" placeholder="Your Nickname" value="TYBirdFlop" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
               <div class="row">
@@ -39,9 +39,8 @@
                   <label for="output-format">Format:</label>
                   <select id="output-format" class="form-control" onchange="updateOutputText(event);">
                     <option value="0">/nick {#rrggbb}</option>
-                    <option value="1">/nick <#rrggbb></option>
-                    <option value="2">Suffix {#rrggbb}</option>
-                    <option value="3">Suffix <#rrggbb></option>
+                    <option value="1">/nick (&x&r&r&g&g&b&b)</option>
+                    <option value="2">(Suffix) {#rrggbb}</option>
                   </select>
                 </div>
               </div>
@@ -50,21 +49,33 @@
                   <label for="color-preset">Preset:</label>
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
-                    <option value="1">Bunny</option>
-                    <option value="2">Lissi</option>
-                    <option value="3">Alpha</option>
-                    <option value="4">Howie</option>
-                    <option value="5">Lory</option>
-                    <option value="6">Sunny (Phoenix)</option>
-                    <option value="7">Sunny (Wyvern)</option>
-                    <option value="8">Sunny (Lynx)</option>
-                    <option value="9">George</option>
+                    <option value="1">Raiinnnbooww</option>
+                    <option value="2">Dev</option>
+                    <option value="3">Bentooch</option>
+                    <option value="4">Mel Arky</option>
+                    <option value="5">Baron</option>
+                    <option value="6">Shirafune</option>
+                    <option value="7">Davi</option>
+                    <option value="8">Crock</option>
+                    <option value="9">Cookei</option>
+                    <option value="10">Mochi</option>
+                    <option value="11">Scrooge</option>
+                    <option value="12">Juanito</option>
+                    <option value="13">Danie</option>
+                    <option value="14">Koen</option>
+                    <option value="15">Fancy</option>
+                    <option value="16">MacDaKing</option>
+                    <option value="17">AlexTheFarmer</option>
+                    <option value="18">Vince</option>
+                    <option value="19">hevnoorak</option>
+                    <option value="20">Esno</option>
+                    <option value="21">iBurkie</option>
                   </select>
                 </div>
               </div>
               <div class="row">
-                <label for="numOfColors">Amount of Colors for da <span>gradient(s)</span>:</label>
-                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="10" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
+                <label for="numOfColors">Amount of Colors for da gradient(s):</label>
+                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="100" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
               </div>
               <div class="row">
                 <div id="dbold">
@@ -84,16 +95,15 @@
                   <label id="strike" for="strike">Strikethrough</label>
                 </div>
               </div>
-
               <div class="row">
                 <div id="coloredNick" class="minecraft"></div>
               </div>
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 20px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 10 character limit.</p>
+                <div id="output" class="">
+                  <label id="label4" class="" for="outputText">Output Value</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;" onclick="CopyToClipboard('outputText');return false;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 256 character limit.</p>
                 </div>
               </div>
             </div>
@@ -102,12 +112,11 @@
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/staffPresets.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
     
 
   <footer>
-    <p>Phoenix server on top. 🪶 - Credits goes to rgb.birdflop.com</p>
+    <p>Made with 💓 by Dev, thanks to BirdFlop 🐦.</p>
   </footer>
 
 </body></html>

@@ -5,7 +5,7 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/js.cookie.js"></script>
-    <title>Simple Survival Util</title>
+    <title>SNG</title>
   </head>
 
   <body id="bg" class="container" style="font-family: Quicksand;">
@@ -19,7 +19,7 @@
     
     <div id="content">
       <h1 id="title">Simple Name Generator</h1>
-      <p id="graylabel1" class="gray" style="padding-bottom: 10px;">Wyvern Presets</p>
+      <p id="graylabel1" class="white" style="padding-bottom: 10px;">Lynx Presets</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2" style="padding-left: 0;">
@@ -29,20 +29,9 @@
           <div class="col-md-10" style="padding-right: 0;">
             <div class="container-fluid">
               <div class="row">
-                <div id="output">
-                  <label id="label4" for="outputText">Output Command</label>
-                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;">Click to Copy</label>
-                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
-                  <p id="error">Exceeded 256 character limit.</p>
-                </div>
-              </div>
-              <div class="row">
-                <div id="coloredNick" class="minecraft"></div>
-              </div>
-              <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="nickname">Nick:</label>
-                  <input class="form-control" id="nickname" type="text" maxlength="100" placeholder="Your Nickname" value="DevIsCool" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
+                  <input class="form-control" id="nickname" type="text" maxlength="1000" placeholder="Your Nickname" value="TYBirdFlop" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
               <div class="row">
@@ -50,9 +39,8 @@
                   <label for="output-format">Format:</label>
                   <select id="output-format" class="form-control" onchange="updateOutputText(event);">
                     <option value="0">/nick {#rrggbb}</option>
-                    <option value="1">/nick <#rrggbb></option>
-                    <option value="2">Suffix {#rrggbb}</option>
-                    <option value="3">Suffix <#rrggbb></option>
+                    <option value="1">/nick (&x&r&r&g&g&b&b)</option>
+                    <option value="2">(Suffix) {#rrggbb}</option>
                   </select>
                 </div>
               </div>
@@ -62,32 +50,33 @@
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
                     <option value="1">Raiinnnbooww</option>
-                    <option value="2">Blondie</option>
-                    <option value="3">Fish</option>
-                    <option value="4">MRxCHOWDER</option>
-                    <option value="5">MrChimp</option>
-                    <option value="6">Noury69x</option>
-                    <option value="7">Lora</option>
-                    <option value="8">Beat</option>
-                    <option value="9">Macca</option>
-                    <option value="10">Loki</option>
-                    <option value="11">Qumuz</option>
-                    <option value="12">Aazronn</option>
-                    <option value="13">userp</option>
-                    <option value="14">3volv3</option>
-                    <option value="15">Icecream</option>
-                    <option value="16">Ghost</option>
-                    <option value="17">Fulcrin</option>
-                    <option value="18">Baron</option>
-                    <option value="19">JimDaDoggo</option>
-                    <option value="20">Jessie</option>
-                    <option value="21">Superpiper</option>
+                    <option value="l2">Themis</option>
+                    <option value="l3">Duckyy</option>
+                    <option value="l4">Reaperr</option>
+                    <option value="l5">Vobie</option>
+                    <option value="l6">FxpWilhelm</option>
+                    <option value="l7">ORSETTOOOO</option>
+                    <option value="l8">denstagmer</option>
+                    <option value="l9">Twister</option>
+                    <option value="l10">Bandito</option>
+                    <option value="l11">BlackWall</option>
+                    <option value="l12">Cookie</option>
+                    <option value="l13">Waffle</option>
+                    <option value="l14">HEISENBERG</option>
+                    <option value="l15">Sonny</option>
+                    <option value="l16">Kuduz</option>
+                    <!-- <option value="19">MacDaKing</option>
+                    <option value="20">AlexTheFarmer</option>
+                    <option value="21">Vince</option>
+                    <option value="22">hevnoorak</option>
+                    <option value="23">Esno</option>
+                    <option value="24">iBurkie</option> -->
                   </select>
                 </div>
               </div>
               <div class="row">
-                <label for="numOfColors">Amount of Colors for da <span>gradient(s)</span>:</label>
-                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="10" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
+                <label for="numOfColors">Amount of Colors for da gradient(s):</label>
+                <input class="form-control" style="width: 75px;" value="2" id="numOfColors" type="number" min="2" max="100" onchange="updateOutputText(event); toggleColors(this.value);" oninput="updateOutputText(event); toggleColors(this.value);">
               </div>
               <div class="row">
                 <div id="dbold">
@@ -107,18 +96,28 @@
                   <label id="strike" for="strike">Strikethrough</label>
                 </div>
               </div>
+              <div class="row">
+                <div id="coloredNick" class="minecraft"></div>
+              </div>
+              <div class="row">
+                <div id="output" class="">
+                  <label id="label4" class="" for="outputText">Output Value</label>
+                  <label id="graylabel2" class="cpypstt" for="outputText" style="font-weight: normal;" onclick="CopyToClipboard('outputText');return false;">Click to Copy</label>
+                  <pre id="outputText" style="border-radius: 10px; white-space: pre-wrap; height: 70px; margin-right: 15px; font-family: MinecraftRegular; margin-bottom: 5px;" onclick="CopyToClipboard('outputText');return false;"></pre>
+                  <p id="error">Exceeded 256 character limit.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
     <script src="js/jscolor.js"></script>
-    <script src="js/wyvernPresets.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
     
 
   <footer>
-    <p>Phoenix server on top. 🪶 - Credits goes to rgb.birdflop.com</p>
+    <p>Made with 💓 by Dev, thanks to BirdFlop 🐦.</p>
   </footer>
 
 </body></html>
