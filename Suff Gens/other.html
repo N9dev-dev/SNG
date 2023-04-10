@@ -18,8 +18,8 @@
     </div>
     
     <div id="content">
-      <h1 id="title">Simple Name Generator</h1>
-      <p id="graylabel1" class="white" style="padding-bottom: 10px;">Phoenix Presets</p>
+      <h1 id="title">Simple Suffix Generator</h1>
+      <p id="graylabel1" class="white" style="padding-bottom: 10px;">Other Presets</p>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-2" style="padding-left: 0;">
@@ -30,7 +30,7 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-md-3" style="padding-left: 0;">
-                  <label for="nickname">Nick:</label>
+                  <label for="nickname">Suffix:</label>
                   <input class="form-control" id="nickname" type="text" maxlength="1000" placeholder="Your Nickname" value="TYBirdFlop" oninput="javascript: updateOutputText(event);" onchange="javascript: updateOutputText(event)">
                 </div>
               </div>
@@ -38,8 +38,8 @@
                 <div class="col-md-3" style="padding-left: 0;">
                   <label for="output-format">Format:</label>
                   <select id="output-format" class="form-control" onchange="updateOutputText(event);">
-                    <option value="0">/nick {#rrggbb}</option>
-                    <option value="1">/nick (&x&r&r&g&g&b&b)</option>
+                    <!-- <option value="0">/nick {#rrggbb}</option>
+                    <option value="1">/nick (&x&r&r&g&g&b&b)</option> -->
                     <option value="2">(Suffix) {#rrggbb}</option>
                   </select>
                 </div>
@@ -50,30 +50,10 @@
                   <select id="color-preset" class="form-control" onchange="preset(this.value); updateOutputText(event); ">
                     <option value="0">None</option>
                     <option value="1">Raiinnnbooww</option>
-                    <option value="2">Dev</option>
-                    <option value="3">Bentooch</option>
-                    <option value="4">Mel Arky</option>
-                    <option value="5">Baron</option>
-                    <option value="6">Shirafune</option>
-                    <option value="7">Davi</option>
-                    <option value="8">Crock</option>
-                    <option value="9">Cookei</option>
-                    <option value="10">Mochi</option>
-                    <option value="11">Scrooge</option>
-                    <option value="12">Juanito</option>
-                    <option value="13">Danie</option>
-                    <option value="14">Koen</option>
-                    <option value="15">Fancy</option>
-                    <option value="16">MacDaKing</option>
-                    <option value="17">AlexTheFarmer</option>
-                    <option value="18">Vince</option>
-                    <option value="19">hevnoorak</option>
-                    <option value="20">Esno</option>
-                    <option value="21">iBurkie</option>
-                    <option value="22">Colderr</option>
-                    <option value="23">Frogzie</option>
-                    <option value="24">Teddybil</option>
-                    <option value="25">Rabbeto <3</option>
+                    <option value="o2">Dev</option>
+                    <!-- <option value="o22">hevnoorak</option>
+                    <option value="o23">Esno</option>
+                    <option value="o24">iBurkie</option> -->
                   </select>
                 </div>
               </div>
@@ -120,7 +100,7 @@
     
 
   <footer>
-    <p>Made with 💓 by Dev, thanks to BirdFlop 🐦. Rabbeto says hi 👋</p>
+    <p>Made with 💓 by Dev, thanks to BirdFlop 🐦.</p>
   </footer>
 
 </body></html>

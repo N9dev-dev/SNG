@@ -25,7 +25,8 @@ iBurkie = colors: ["019800", "53F9F9"]
 Colderr = colors: ["8E5AD2", "5892D7"]
 Frogzie = colors: ["202E1D", "63AF36"]
 Teddybil = colors: ["1D1D1D", "323232", "E40859"]
-
+elusivefox = colors: ["2AB889", "E58B2D"]
+Frosty = colors: ["0BB5E1", "1655DF"]
 
 
 
@@ -101,6 +102,9 @@ Bunnyx3 = colors: ["d6d8fb", "d9d4fb", "dbd0fc", "decdfc", "e1c9fc", "e3c5fd", "
 LissiGirl = colors: ["8b00cc", "9c34f6", "ae69ee", "bf9de5", "A2A9B3", "A2A9B3", "a2c7e0", "73bce4", "45b1e8"]
 MollyP = colors: ["8C168A", "010795"]
 Blream = colors: ["E41FD0", "E4C28D"]
+Sunny = colors: ["CE099D", "CEBA01"]
+Jadz = colors: ["CC285C", "DF6EC7"]
+LissiGirl (Rainbow Edition) = colors: ["C365BF", "8771D0", "87B5EB", "6AC66A", "D3C46E", "C95E5A"]
 
 
 
