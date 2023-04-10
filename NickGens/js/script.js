@@ -110,6 +110,10 @@ const nickName = document.getElementById("nickname"),
         27: {
             colors: ["0BB5E1", "1655DF"]
         },
+        // MabuTsuki
+        28: {
+            colors: ["9689CD", "BD827C"]
+        },
         // Rapha
         w2: {
             colors: ["B37F4A", "822035"]

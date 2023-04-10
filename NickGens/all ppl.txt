@@ -111,3 +111,19 @@ LissiGirl (Rainbow Edition) = colors: ["C365BF", "8771D0", "87B5EB", "6AC66A", "
 
 
 
+----------------------------------------------------------------
+Other Presets
+
+Purpink = colors: ["7F00FF", "E100FF"]
+Pepsi = colors: ["0D6EFD", "FFFFFF", "B30000"]
+Dew = colors: ["1E191A", "95CA3B", "FFFFFF", "EE1334"]
+Cola = colors: ["F00000", "F7F7F7"]
+Fanta = colors: ["ED7F1E", "262E79", "F7F7F7", "70B741"]
+Blue Beach = colors: ["01539D", "EEA47F"]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
+Grad = colors: ["", ""]
