@@ -98,6 +98,10 @@ const nickName = document.getElementById("nickname"),
         24: {
             colors: ["1D1D1D", "323232","E40859", "E40859"]
         },
+        // Rabbeto
+        25: {
+            colors: ["8F421C", "569E96"]
+        },
         // Rapha
         w2: {
             colors: ["B37F4A", "822035"]

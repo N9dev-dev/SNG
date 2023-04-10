@@ -24,7 +24,7 @@ Esno = colors: ["DD0F0D", "F6CB19"]
 iBurkie = colors: ["019800", "53F9F9"]
 Colderr = colors: ["8E5AD2", "5892D7"]
 Frogzie = colors: ["202E1D", "63AF36"]
-Teddybil = colors: ["1D1D1D", "E40859"]
+Teddybil = colors: ["1D1D1D", "323232", "E40859"]
 
 
 
