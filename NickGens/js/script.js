@@ -218,6 +218,10 @@ const nickName = document.getElementById("nickname"),
         l16: {
             colors: ["1FAC21", "2E5BE3", "652591"]
         },
+        // Quality
+        l17: {
+            colors: ["ECDDD0", "E2DEDA", "D9DEE4", "CFDFEE", "DADEE3", "E5DED8", "F0DDCD"]
+        },
         // Bunny
         s2: {
             colors: ["d6d8fb", "d9d4fb", "dbd0fc", "decdfc", "e1c9fc", "e3c5fd", "e6c1fd"]

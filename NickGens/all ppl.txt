@@ -80,7 +80,7 @@ Waffle = colors: ["9C697C", "9C697C"]
 HEISENBERG = colors: ["9C0909", "9C0909"]
 Sonny = colors: ["304DE2", "F77ABD"]
 Kuduz = colors: ["1FAC21", "2E5BE3", "652591"]
-
+Quality = colors: ["ECDDD0", "E2DEDA", "D9DEE4", "CFDFEE", "DADEE3", "E5DED8", "F0DDCD"]
 
 
 
