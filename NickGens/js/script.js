@@ -268,7 +268,7 @@ const nickName = document.getElementById("nickname"),
         },
         // Davi
         o7: {
-            colors: ["00c0cc", "cc00c4", "cc00c4"]
+            colors: ["00BDC9", "863EC3", "cc00c4"]
         },
         // Crock
         o8: {
