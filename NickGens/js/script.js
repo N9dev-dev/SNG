@@ -114,6 +114,10 @@ const nickName = document.getElementById("nickname"),
         28: {
             colors: ["9689CD", "BD827C"]
         },
+        // Rawdog
+        29: {
+            colors: ["FFFFFF", "900FFF"]
+        },
         // Rapha
         w2: {
             colors: ["B37F4A", "822035"]

@@ -27,6 +27,7 @@ Frogzie = colors: ["202E1D", "63AF36"]
 Teddybil = colors: ["1D1D1D", "323232", "E40859"]
 elusivefox = colors: ["2AB889", "E58B2D"]
 Frosty = colors: ["0BB5E1", "1655DF"]
+Rawdog = colors: ["FFFFFF", "900FFF"]
 
 
 
