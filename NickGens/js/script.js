@@ -118,6 +118,10 @@ const nickName = document.getElementById("nickname"),
         29: {
             colors: ["FFFFFF", "900FFF"]
         },
+        // Fake Dev
+        30: {
+            colors: ["C92ED7", "450E7E"]
+        },
         // Rapha
         w2: {
             colors: ["B37F4A", "822035"]
